@@ -24,7 +24,7 @@ TTS_VOICE = os.getenv("TTS_VOICE", "zh-CN-XiaoxiaoNeural")
 # 本地 LM Studio 默认地址：http://127.0.0.1:1234/v1
 # 不配置 LLM_API_KEY 时自动使用预设回复（保证开箱即用）
 LLM_API_BASE = os.getenv("LLM_API_BASE", "https://api.deepseek.com")
-LLM_API_KEY = os.getenv("LLM_API_KEY", "sk-a7506cc1b2ae4412bdc72d6ad0325570")
+LLM_API_KEY = os.getenv("LLM_API_KEY", "")
 LLM_MODEL = os.getenv("LLM_MODEL", "deepseek-v4-flash")
 
 # 是否启用真实 LLM 对话

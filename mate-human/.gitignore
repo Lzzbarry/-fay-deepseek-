@@ -1,0 +1,31 @@
+# Claude Code
+.claude/
+
+# Node modules
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+nul
+*.tmp
+temp/
+
+# Course packages
+fay-*-course/
+fay-*-course.zip
+
+# Live2D 资源副本（由 copy_resources.js 生成）与 vite 构建产物
+CubismSdkForWeb-5-r.4/Samples/TypeScript/Demo/public/Core/
+CubismSdkForWeb-5-r.4/Samples/TypeScript/Demo/public/Resources/
+CubismSdkForWeb-5-r.4/Samples/TypeScript/Demo/dist/
