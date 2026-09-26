@@ -1,15 +1,8 @@
+
+
 <div align="center">
-  <br>
-  <img src="fay/readme/icon.png" alt="Fay" width="140">
   <h1>Fay 数字人框架</h1>
   <p>面向终端的开源数字人应用框架 —— 向上适配各种数字人模型，向下接入各式大语言模型</p>
-
-  <p>
-    <img src="https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white" alt="Python">
-    <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-4B8BBE" alt="Platform">
-    <img src="https://img.shields.io/badge/License-GPL--3.0-blue" alt="License">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen" alt="PRs welcome">
-  </p>
 </div>
 
 ## 项目简介
@@ -48,16 +41,6 @@ Fay 只负责“对话、语音、工具调用与记忆”，数字人渲染交�
 - 支持 MCP 工具管理（stdio / SSE / studio）
 - 提供配置管理中心
 - 全链路交互互通
-
-## 效果展示
-
-| 对话界面 | 控制中心 |
-| --- | --- |
-| ![chat](fay/readme/chat.png) | ![controller](fay/readme/controller.png) |
-
-| 数字人驱动 | MCP 工具管理 |
-| --- | --- |
-| ![interface](fay/readme/interface.png) | ![mcp](fay/readme/mcp.png) |
 
 ## 仓库结构
 
@@ -183,4 +166,4 @@ Fay 采用“记忆流 + 每日反思 + 用户画像”的仿生记忆：
 本项目基于 [GPL-3.0](fay/LICENSE) 开源。
 
 `mate-human` 内的 Live2D Cubism SDK 遵循 [Live2D Open Software License](mate-human/CubismSdkForWeb-5-r.4/LICENSE.md)，`human/` 内的 Live2D 模型仅供学习交流，请勿商用。
-
+```
