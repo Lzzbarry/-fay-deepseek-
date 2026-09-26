@@ -1,0 +1,120 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Lisette.moc3",
+		"Textures": [
+			"Lisette.4096/texture_00.png",
+			"Lisette.4096/texture_01.png",
+			"Lisette.4096/texture_02.png"
+		],
+		"Physics": "Lisette.physics3.json",
+		"UserData": "Lisette.userdata3.json",
+		"DisplayInfo": "Lisette.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "F01",
+				"File": "Expressions/F01.exp3.json"
+			},
+			{
+				"Name": "F02",
+				"File": "Expressions/angry.exp3.json"
+			},
+			{
+				"Name": "F03",
+				"File": "Expressions/sad.exp3.json"
+			},
+			{
+				"Name": "F04",
+				"File": "Expressions/frenzy.exp3.json"
+			}
+		],
+		"Motions": {
+			"Idle": [
+				{
+					"File": "Animations/breathing.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+				{
+					"File": "Animations/hand_fiddle_idle.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+				{
+					"File": "Animations/walking_idle.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+				{
+					"File": "Animations/sans_eye_glow_idle.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+				{
+					"File": "Animations/run_idle.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+				{
+					"File": "Animations/shy_idle.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			],
+			"TapBody": [
+				{
+					"File": "Animations/jump_ani.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+				{
+					"File": "Animations/hello_ani.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+				{
+					"File": "Animations/sad_idle.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+				{
+					"File": "Animations/angry_idle.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+				{
+					"File": "Animations/frenzy_idle.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+				{
+					"File": "Animations/hand_fiddle_idle.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+				{
+					"File": "Animations/happy_transition.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Lisette.moc3",
+		"Textures": [
+			"Lisette.4096/texture_00.png",
+			"Lisette.4096/texture_01.png",
+			"Lisette.4096/texture_02.png"
+		],
+		"Physics": "Lisette.physics3.json",
+		"UserData": "Lisette.userdata3.json",
+		"DisplayInfo": "Lisette.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	]
+}
